@@ -1,0 +1,38 @@
+.navbar{
+    background-color: #242424;
+}
+
+.margin{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.quem-somos{
+    color: #242424;
+    background-color: #F2F0E4;
+}
+
+.quem-somos h2{
+    margin-bottom: 30px;
+}
+
+.parceiros{
+    color: #F2F0E4;
+    background-color: #242424;
+}
+
+.parceiros h2{
+    margin-bottom: 30px;
+
+}
+
+.servicos h2{
+    margin-bottom: 30px;
+}
+
+.bg-footer{
+    color: #F2F0E4;
+    background-color: #242424;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
