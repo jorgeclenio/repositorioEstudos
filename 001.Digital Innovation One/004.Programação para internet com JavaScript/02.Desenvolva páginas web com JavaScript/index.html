@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TÍTULO -->
+    <title>02.Desenvolva páginas web com JavaScript</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="./js/main.js"></script>
+</head>
+
+<body onload="load()">
+    <div>
+        <button type="button" onclick="clicou()">clique aqui</button>
+        <p id="agradecimento"></p>
+        <button type="button" onclick="google()">google</button>
+        <p onmouseover="trocar(this)" onmouseout="voltar(this)">passe o mouse aqui</p>
+
+        <select onchange="funcaoChange(this)">
+            <option value="1">valor 1</option>
+            <option value="2">valor 2</option>
+            <option value="3">valor 3</option>
+        </select>
+
+    </div>
+</body>
+
+</html>
