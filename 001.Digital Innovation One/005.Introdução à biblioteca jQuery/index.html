@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TÍTULO -->
+    <title>Consulte seu CEP</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand">Consulta CEP</a>
+        <div class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Digite o CEP" id="cep">
+            <button class="btn btn-outline-success my-2 my-sm-0" onclick="consultaCep()">Buscar</button>
+        </div>
+    </nav>
+    <div class="margin container">
+        <div class="row">
+            <h3 id="tituloCep">CEP<h3>
+        </div>
+        <div class="margin row">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>Logradouro</td>
+                        <td id="logradouro"></td>
+                    </tr>
+                    <tr>
+                        <td>Bairro</td>
+                        <td id="bairro"></td>
+                    </tr>
+                    <tr>
+                        <td>Localidade</td>
+                        <td id="localidade"></td>
+                    </tr>
+                    <tr>
+                        <td>UF</td>
+                        <td id="uf"></td>
+                    </tr>
+                    <tr>
+                        <td>DDD</td>
+                        <td id="ddd"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
