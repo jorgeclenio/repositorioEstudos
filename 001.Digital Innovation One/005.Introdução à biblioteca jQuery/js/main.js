@@ -14,12 +14,13 @@ function consultaCep() {
             $("#uf").html(response.uf);
             $("#ddd").html(response.ddd);
             $("#tituloCep").html("CEP " + response.cep);
+            // $(".cep").show();
         }
     })
 }
 
 /*
 $(function () {
-    $("#cep").hide();
+    $(".cep").hide();
 })
 */
