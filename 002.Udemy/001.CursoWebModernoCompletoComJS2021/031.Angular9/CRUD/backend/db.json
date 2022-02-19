@@ -1,0 +1,19 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"name": "Iphone 11",
+			"price": 4199.90
+		},
+		{
+			"id": 2,
+			"name": "Notebook Gamer",
+			"price": 5199.90
+		},
+		{
+			"id": 3,
+			"name": "Samsung Galaxy S20",
+			"price": 4899.90
+		}
+	]
+}
