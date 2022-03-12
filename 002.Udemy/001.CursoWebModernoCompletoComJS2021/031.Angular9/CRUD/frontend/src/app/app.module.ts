@@ -8,6 +8,7 @@ import { HeaderComponent } from "./components/template/header/header.component";
 
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatButtonModule } from "@angular/material/button";
+import { MatSnackBarModule } from "@angular/material/snack-bar";
 
 import { FooterComponent } from "./components/template/footer/footer.component";
 import { NavComponent } from "./components/template/nav/nav.component";
@@ -42,6 +43,7 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     MatListModule,
     MatCardModule,
     MatButtonModule,
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
