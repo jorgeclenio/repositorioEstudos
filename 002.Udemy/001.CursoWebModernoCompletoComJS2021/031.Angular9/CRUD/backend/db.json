@@ -19,6 +19,11 @@
       "name": "Passe de batalha - Valorant",
       "price": 39.95,
       "id": 4
+    },
+    {
+      "name": "Lápis preto",
+      "price": 2.5,
+      "id": 5
     }
   ]
 }
