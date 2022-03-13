@@ -3,32 +3,22 @@
     {
       "id": 1,
       "name": "Iphone 12 256GB PRODUCT (RED)",
-      "price": 5579.1
+      "price": 5579.97
     },
     {
       "id": 2,
       "name": "Notebook Gamer",
-      "price": 5199.9
+      "price": 5199.98
     },
     {
       "id": 3,
       "name": "Samsung Galaxy S20+",
-      "price": 4899.9
+      "price": 4899.99
     },
     {
-      "name": "Veio do formulario",
-      "price": "9.99",
+      "name": "Passe de batalha - Valorant",
+      "price": 39.95,
       "id": 4
-    },
-    {
-      "name": "Geladeira",
-      "price": "1890.44",
-      "id": 5
-    },
-    {
-      "name": "Notebook",
-      "price": "3567.87",
-      "id": 6
     }
   ]
 }

@@ -4,7 +4,7 @@
     <mat-form-field>
       <input
         matInput
-        placeholder="Nome"
+        placeholder="Nome do produto"
         [(ngModel)]="product.name"
         name="name"
       />
@@ -13,8 +13,10 @@
     <mat-form-field>
       <input
         matInput
-        placeholder="Preço (R$)"
+        currencyMask
+        placeholder="Preço do produto (R$)"
         [(ngModel)]="product.price"
+        [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',', align: 'left' }"
         name="price"
       />
     </mat-form-field>
@@ -24,7 +26,5 @@
     Salvar
   </button>
 
-  <button mat-stroked-button (click)="cancel()" class="margin-left-10">
-    Cancelar
-  </button>
+  <button mat-stroked-button (click)="cancel()">Cancelar</button>
 </mat-card>
