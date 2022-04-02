@@ -24,6 +24,16 @@
       "name": "Lápis preto",
       "price": 2.5,
       "id": 5
+    },
+    {
+      "name": "Arroz Branco",
+      "price": 25,
+      "id": 6
+    },
+    {
+      "name": "Feijão preto",
+      "price": 19.89,
+      "id": 7
     }
   ]
 }
